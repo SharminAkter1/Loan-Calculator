@@ -1,0 +1,106 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(60, 60, 61);
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+}
+
+.content {
+  background-color: #fff;
+  padding:1.4rem 1.1rem ;
+  width: 80vh;
+  border-radius: 5px;
+  border: 2px solid #d8d6d6; 
+  
+}
+
+.container .content h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  padding-bottom: 1rem;
+  font-weight: 500;
+  color: #000;
+}
+
+.content .form-section .form-group input{
+  padding: 0.6rem 0;
+  width: 100%;
+  padding-left: 0.8rem;
+  font-size: 0.91rem;
+  letter-spacing: 0.9px;
+  font-weight: 500;
+  
+}
+
+.content .form-section .form-group {
+ padding: 0.5rem 0;
+}
+
+.form-group .input-icon {
+  display: flex;
+  border-radius: 5px;
+  border: 2px solid #d8d6d6; 
+}
+
+button {
+  padding: 0.54rem 0.85rem;
+  background:#eaeef3;
+  border: none;
+  font-size: 0.9rem; 
+  border-right: 1px solid #c2c3c4; 
+  color:rgb(139, 138, 138) ;
+
+}
+#percent {
+  font-size: 0.78rem;
+}
+
+.form-group .input-icon input {
+  border: none;
+  border-radius: 0px;
+  outline-color:rgb(178, 218, 248);
+}
+
+input {
+  border-radius: 5px;
+  border: 2px solid #d8d6d6; 
+}
+
+.result-section input {
+  background:#eaeef3;
+}
+
+.result-section h2 {
+  font-size: 1.2rem;
+  text-align: center;
+  padding-top: 1.4rem;
+  color: #000;
+  font-weight: 500;
+}
+
+.calculation input {
+  border-right: none;
+  width: 100%;
+  background-color: rgb(60, 60, 61);
+  color: #f4f4f4;
+  padding:0.6rem;
+  border-radius: 5px;
+  border: 2px solid #d8d6d6; 
+  margin-top: 0.5rem;
+  font-size: 0.98rem;
+  
+}
+
+
+
+
+
