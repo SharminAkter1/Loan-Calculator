@@ -43,20 +43,32 @@
                         </div>
                   </form>
                </div>
-               
-               <div class="result-section">
+               <div id="loading">
+                  <img src="img/loading.gif">
+               </div>
+
+               <div class="result-section" id="results">
                    <h2>Results</h2>
                 
                   <div class="form-section">
                      <form>
                            <div class="form-group">
-                              <input type="number" id="monthly-payment" placeholder="Monthly Payment"disabled>
+                              <div class="btn-input">
+                                 <button class="result-button">Monthly Payment</button>
+                                 <input type="number" id="monthly-payment" disabled>
+                              </div>   
                            </div>
                            <div class="form-group">
-                              <input type="number" id="total-payment" placeholder="Total Payment" disabled>
+                              <div class="btn-input">
+                                 <button class="result-button">Total Payment</button>
+                                <input type="number" id="total-payment"  disabled>
+                              </div>
                            </div>
                            <div class="form-group">
-                              <input type="number" id="total-interest" placeholder="Total Interest" disabled>
+                              <div class="btn-input">
+                                 <button class="result-button">Total Interest</button>
+                                <input type="number" id="total-interest"  disabled>
+                              </div>  
                            </div>
                      </form>
                   </div> 

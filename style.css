@@ -41,6 +41,7 @@ body {
   
 }
 
+
 .content .form-section .form-group {
  padding: 0.5rem 0;
 }
@@ -52,7 +53,7 @@ body {
 }
 
 button {
-  padding: 0.54rem 0.85rem;
+  padding: 0.6rem 0.85rem;
   background:#eaeef3;
   border: none;
   font-size: 0.9rem; 
@@ -60,6 +61,22 @@ button {
   color:rgb(139, 138, 138) ;
 
 }
+.result-button {
+  padding: 0.6rem 0;
+  font-size: 0.91rem; 
+  letter-spacing: 0.9px;
+  font-weight: 500;
+  text-align: start;
+  padding-left: 0.8rem;
+  display: flex;
+  width: 45%;
+}
+
+ .btn {
+  width: 300px;
+  text-align: start;
+}
+
 #percent {
   font-size: 0.78rem;
 }
@@ -67,7 +84,12 @@ button {
 .form-group .input-icon input {
   border: none;
   border-radius: 0px;
+  
+}
+
+#loan-form input {
   outline-color:rgb(178, 218, 248);
+  
 }
 
 input {
@@ -77,6 +99,13 @@ input {
 
 .result-section input {
   background:#eaeef3;
+  border: none;
+}
+
+.form-group .btn-input {
+  display: flex;
+  border-radius: 5px;
+  border: 2px solid #d8d6d6; 
 }
 
 .result-section h2 {
@@ -98,6 +127,15 @@ input {
   margin-top: 0.5rem;
   font-size: 0.98rem;
   
+}
+
+/* loading img */ 
+ #loading {
+  text-align: center;
+}
+
+#loading, #results {
+  display: none;
 }
 
 
